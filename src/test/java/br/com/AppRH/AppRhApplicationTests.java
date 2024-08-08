@@ -1,4 +1,4 @@
-package br.com.AppRH.AppRH;
+package br.com.AppRH;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package br.com.AppRH.AppRH;
+package br.com.AppRH;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
