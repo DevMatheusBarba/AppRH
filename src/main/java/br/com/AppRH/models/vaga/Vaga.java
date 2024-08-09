@@ -1,6 +1,7 @@
-package br.com.AppRH.models;
+package br.com.AppRH.models.vaga;
 
 
+import br.com.AppRH.models.candidato.Candidato;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
