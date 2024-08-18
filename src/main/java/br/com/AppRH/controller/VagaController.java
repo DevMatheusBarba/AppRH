@@ -1,10 +1,10 @@
 package br.com.AppRH.controller;
 
 
+import br.com.AppRH.models.candidato.Candidato;
 import br.com.AppRH.models.vaga.Vaga;
 import br.com.AppRH.models.vaga.VagaRepository;
 import jakarta.validation.Valid;
-import models.candidato.CandidatoRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +17,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 public class VagaController {
 
     private VagaRepository vagaRepository;
-    private CandidatoRepository candidatoRepository;
+    private Candidato.CandidatoRepository candidatoRepository;
 
 
     @GetMapping
