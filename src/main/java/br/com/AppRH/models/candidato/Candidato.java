@@ -6,10 +6,12 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
+import lombok.Setter;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 @Entity
 @Getter
+@Setter
 public class Candidato {
 
     @Id
@@ -30,7 +32,4 @@ public class Candidato {
     @ManyToOne
     private Vaga vaga;
 
-    public static interface CandidatoRepository extends JpaRepository<Candidato, Long> {
-
-    }
 }
